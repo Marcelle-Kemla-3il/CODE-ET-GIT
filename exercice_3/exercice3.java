@@ -1,6 +1,7 @@
 public class StockManager {
 
     // gere le stock
+    //class gerer stock
     public void gererStock(String typeOperation, String produit, int quantite, int stock) {
         // Ajout au stock
         if (typeOperation.equals("ajout")) {
